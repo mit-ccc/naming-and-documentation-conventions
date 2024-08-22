@@ -94,15 +94,15 @@ Repository descriptions should include:
 
 ### Commit names
 Every github commit should start with one of the following words:
-- `modification`: when a new code is added or removed. Designate the file and the purpose of the modification. 
-- `fix`: when a specific bug is fixed. 
-- `file change`: if files are added or removed. 
+- `feat`: new feature
+- `fix`: bug fix
+- `docs`: documentation update
 
 ### Releases
 
-Every **task** must have a release. A release is a packaged version of the task that can be downloaded and run by anyone interested in our task. Having releases allows for our tasks to be more easily accessible. After a task has been successfully ran online, push the latest version of the task to the repository and make the release. 
+Every **task** must have a release. A release is a packaged version that can be downloaded and run by anyone. Having releases allows for your code to be more easily accessible.
 
 1. To draft a new release you need to click on the right hand side of the GitHub repository and then press the releases button. 
 2. Next you need to title your release; title it based off of the name of the repository. 
-3. Give your release a tag, we typically use the tag V number, which corresponds to the version and number of the test that you are creating (`v1.0`)
+3. Give your release a tag, we typically use the tag V number, which corresponds [semantic versioning](https://semver.org/) (`v1.2.3`).
 4. Then describe your release, you can copy and paste to read me and any other relevant information. 
