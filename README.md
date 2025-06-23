@@ -5,6 +5,7 @@
 - [GitHub Onboarding](#github-onboarding)
   - [Git](#git)
   - [GitHub](#github)
+    - [Repository Terminology](#repository-terminology)
     - [READMEs](#readmes)
     - [Repository Names](#repository-names)
       - [Use all lowercase letters.](#use-all-lowercase-letters)
@@ -27,6 +28,18 @@ Git is a version control system that makes it easy to work collaboratively on co
 
 ## GitHub
 GitHub is how we use Git to work collaboratively. Below you'll find best practices on its use.
+
+### Repository Terminology
+
+| Term	| Definition |
+| ----- | ---------- |
+| Branch | A parallel version of your code that is contained within the repository, but does not affect the primary or main branch. |
+| Clone	| To download a full copy of a repository's data from GitHub.com, including all versions of every file and folder. |
+| Fork | A new repository that shares code and visibility settings with the original "upstream" repository. |
+| Merge	| To take the changes from one branch and apply them to another. |
+| Pull request | A request to merge changes from one branch into another. |
+| Remote | A repository stored on GitHub, not on your computer. |
+| Upstream | The branch on an original repository that has been forked or cloned. The corresponding branch on the cloned or forked repository is called the "downstream." |
 
 ### READMEs
 A README communicates expectations for your project and helps you manage contributions. For more information, see [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes). A README is a markdown file (.md extension), learn more about markdown [here](https://www.markdownguide.org/getting-started/).
