@@ -212,3 +212,9 @@ The following are typical on production software engineering teams, but may be o
 8. <ins>Test Coverage</ins>: Check that the code includes appropriate unit tests or integration tests, and that the tests cover essential functionality and edge cases. Ensure that the tests are passing and up-to-date.
 9. <ins>Security</ins>: Verify that the code follows secure coding practices and does not introduce any security vulnerabilities, such as SQL injections, cross-site scripting, or improper access controls.
 10. <ins>Performance and Efficiency</ins>: Review the code for potential performance bottlenecks or inefficiencies, such as unnecessary loops, memory leaks, or suboptimal algorithms.
+
+## Code
+
+### Alphabetical
+
+Functions should always be in alphabetical order in a file. Private functions (starting with `_`) should go above public functions. Whenever possible, keyword arguments should be alphabetical as well. This makes for easy review and debugging.
